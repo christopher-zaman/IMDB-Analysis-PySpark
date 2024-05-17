@@ -58,8 +58,6 @@ Before plotting, I needed to convert the data frame to a `pandas` object.
 
 Then, I `import matplotlib.pyplot as plt` and plot the figure. 
 
-![part-2](/Users/christopherzaman/Desktop/part-2.png)
-
 
 
 #### **Part 3 – Analyzing Movie Genres**
@@ -70,7 +68,6 @@ Then, I `import matplotlib.pyplot as plt` and plot the figure.
 
 First I used `.groupBy("category").count()` to get count, and then `.orderBy(col("count").desc())` to surface the top job categories. 
 
-![top-job-categories-and-counts](/Users/christopherzaman/Desktop/top-job-categories-and-counts.png)
 
 #### **Bar Chart of Top Job Categories**
 
@@ -92,8 +89,6 @@ I didn't forget the Magic.
 # 🧙`%matplot plt`
 
 
-
-![top-five-job-categories-bar-plot](/Users/christopherzaman/Desktop/top-five-job-categories-bar-plot.png)
 
 #### **Part 4 – Answer the following questions**
 
@@ -253,10 +248,3 @@ I didn't forget the Magic.
 
    Lastly, I `select` and `limit` the output columns.
 
-
-
-> [!NOTE]
->
-> I've learned how to analyze big data using PySpark on AWS EMR within the Jupyter Notebook. 
->
-> -Christopher Zaman
